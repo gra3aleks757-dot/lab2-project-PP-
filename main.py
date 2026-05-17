@@ -1,8 +1,9 @@
 def add(a, b):
-    """Developer B version - optimized"""
-    # Fast path for integers
-    return a + b
-
+    """Combined version with logging"""
+    result = a + b
+    print(f"Adding: {a} + {b} = {result}")
+    return result
+  
 def subtract(a, b):
     return a - b
 
