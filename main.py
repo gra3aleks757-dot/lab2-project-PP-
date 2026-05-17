@@ -1,9 +1,9 @@
 def add(a, b):
-    """Developer A version with logging"""
+    """Combined version with logging"""
     result = a + b
     print(f"Adding: {a} + {b} = {result}")
     return result
-
+  
 def subtract(a, b):
     return a - b
 
